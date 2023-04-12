@@ -16,11 +16,8 @@ export default function Template() {
           <p className={styles.scrollText}>Scroll down</p>
         </ParallaxLayer>
 
-        <ParallaxLayer
-          sticky={{ start: 1, end: 2 }}
-          style={{ ...alignCenter, justifyContent: "flex-start" }}
-        >
-          <div className={`${styles.card} ${styles.sticky}`}>
+        <ParallaxLayer sticky={{ start: 1, end: 2 }}>
+          <div className="stickyLayer">
             <p>I'm a sticky layer</p>
           </div>
         </ParallaxLayer>

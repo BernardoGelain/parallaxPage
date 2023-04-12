@@ -5,3 +5,13 @@
   background-image: url("/assets/fundo1.jpg");
   background-size: cover;
 }
+.containerFirstPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.banner {
+  width: 40%;
+}
