@@ -4,6 +4,8 @@
 
   background-image: url("/assets/fundo1.jpg");
   background-size: cover;
+  background-position: center;
+  font-size: 24px;
 }
 .containerFirstPage {
   display: flex;
@@ -13,5 +15,335 @@
   height: 100vh;
 }
 .banner {
-  width: 40%;
+  width: 35%;
+}
+.containerElementos {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.contatoContainer {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.contatoPageContainer {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 34px;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 100px;
+}
+.textoContatoDesc {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.elementosTextoContato {
+  display: flex;
+  flex-direction: column;
+}
+.sobreNosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconInicial {
+  width: 150px;
+}
+.sobreNos {
+  color: white;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.contato {
+  color: white;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.buttonContato {
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.contatoButtons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: flex-end;
+  margin-right: 20%;
+  gap: 50px;
+}
+.contatoButtons div {
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+.containerSobreNosPage {
+  background-image: url("/assets/fundo3.jpg");
+  background-size: cover;
+  color: white;
+  background-position-y: -200px;
+  background-position-x: -400px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.containerItensDisplay {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 200px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  align-items: space-around;
+  justify-items: space-around;
+}
+.iconAboutUs {
+  width: 300px;
+}
+.containerItem {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+.containerContatoPage {
+  background: rgb(39, 1, 52);
+  background: linear-gradient(
+    140deg,
+    rgba(39, 1, 52, 1) 0%,
+    rgba(93, 50, 133, 1) 100%
+  );
+  color: white;
+
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.aboutUsText {
+  margin-top: 10px;
+}
+.containerImgLogo {
+  display: flex;
+  margin-left: 5%;
+}
+.containerImgParceiro {
+  display: block;
+  margin-left: 55%;
+}
+.logoParceiroOfertao {
+  width: 200px;
+}
+.logoParceiroOniz {
+  width: 200px;
+}
+.logoParceiroRoyalTrudel {
+  width: 150px;
+}
+.logoParceiroFriolack {
+  width: 250px;
+}
+
+.box {
+  margin-top: 150px;
+}
+.box span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.box span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.box span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(45deg) translate(10px, 10px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.imgContatoPage {
+  width: 100%;
+  min-width: 200px;
+}
+
+@media (max-width: 1450px) {
+  .containerItensDisplay {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: row;
+    grid-auto-rows: minmax(10px, auto);
+    grid-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+  }
+  .aboutUsText {
+    font-size: 20px;
+  }
+  .iconAboutUs {
+    width: 150px;
+  }
+  .containerSobreNosPage {
+    height: 100vh;
+    background-size: auto;
+    background-position-y: -900px;
+    background-position-x: 90px;
+  }
+  .containerItem {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .containerImgParceiro {
+    margin-left: 70%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .LogoBranca {
+    width: 400px;
+  }
+  .iconInicial {
+    width: 120px;
+  }
+}
+@media (max-width: 865px) {
+  .containerImgParceiro {
+    margin-left: 70%;
+  }
+  .LogoBranca {
+    width: 300px;
+  }
+  .logoParceiro {
+    width: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .banner {
+    width: 70%;
+  }
+  .iconInicial {
+    width: 120px;
+  }
+}
+
+@media (max-width: 700px) {
+  .iconInicial {
+    width: 90px !important;
+  }
+
+  .textoContato {
+    font-size: 22px;
+  }
+  .textoContatoDesc {
+    font-size: 16px;
+  }
+  .buttonContato {
+    width: 150px;
+  }
+  .contatoButtons {
+    justify-content: center;
+    margin: 0;
+    margin-top: 150px;
+  }
+}
+
+/*Parceiros*/
+
+@media (max-width: 550px) {
+  .aboutUsText {
+    font-size: 16px;
+  }
+  .iconAboutUs {
+    width: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .buttonContato {
+    width: 120px;
+  }
+  .contatoButtons {
+    justify-content: center;
+    margin: 0;
+    margin-top: 200px;
+  }
+  .containerImgParceiro {
+    margin-left: 70%;
+  }
+  .LogoBranca {
+    width: 200px;
+  }
+  .logoParceiro {
+    width: 100px;
+  }
+}
+@media (max-width: 450px) {
+  .iconInicial {
+    width: 50px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .containerElementos {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .banner {
+    width: 70%;
+  }
+}
+@media (max-width: 405px) {
+  .textoContatoDesc {
+    font-size: 13px;
+  }
+  .textoContato {
+    font-size: 18px;
+  }
+  .iconAboutUs {
+    width: 120px;
+  }
 }

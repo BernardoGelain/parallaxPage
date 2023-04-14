@@ -9,10 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/parallax": "*",
     "@react-spring/types": "^9.7.2",
     "@react-spring/web": "^9.7.2",
-    "@react-spring/parallax": "*",
     "react": "^18.2.0",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0"
   },
