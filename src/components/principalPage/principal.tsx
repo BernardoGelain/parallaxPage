@@ -62,7 +62,7 @@ export default function Principal() {
               <div className="containerItem">
                 <img src="/assets/tecnologia.png" className="iconAboutUs" />
                 <span className="aboutUsText">
-                  Para nós processos e tecnologia são o combustível para o
+                  Para nós, processos e tecnologia são o combustível para o
                   crescimento de qualquer negócio.
                 </span>
               </div>
