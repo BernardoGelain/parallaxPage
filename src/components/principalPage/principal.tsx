@@ -56,7 +56,7 @@ export default function Principal() {
                 <img src="./assets/uniao.png" className="iconAboutUs" />
                 <span className="aboutUsText">
                   Organizada e descomplicada. A Veplex acredita na união entre
-                  pessoas
+                  pessoas.
                 </span>
               </div>
               <div className="containerItem">
@@ -70,7 +70,7 @@ export default function Principal() {
                 <img src="/assets/gear.png" className="iconAboutUs" />
                 <span className="aboutUsText">
                   Assim, conciliando nossos elementos essenciais, buscamos
-                  desenvolver soluções inovadoras para nossos clientes
+                  desenvolver soluções inovadoras para nossos clientes.
                 </span>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Principal() {
                 Envie-nos um e-mail ou fale conosco diretamente por WhatsApp!
               </span>
               <span className="textoContatoDesc">
-                Segunda a Sexta-feira, das 8:00h às 19:00.
+                Segunda a Sexta-feira, das 8:00h às 19:00h.
               </span>
               <span className="textoContatoDesc">
                 Rua Antonio Araújo, 1046, Sala 801 - Centro - Passo Fundo - RS
