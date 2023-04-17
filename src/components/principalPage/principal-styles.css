@@ -204,9 +204,12 @@
 .containerImgParceiro {
   cursor: pointer;
 }
-@media (max-width: 1650px) {
+@media (max-width: 1750px) {
   .iconInicial {
     width: 180px;
+  }
+  .imgContatoPage {
+    width: 80%;
   }
 }
 
