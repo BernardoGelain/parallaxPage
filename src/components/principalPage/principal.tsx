@@ -11,6 +11,14 @@ export default function Principal() {
   const parallaxContainer = useRef(null);
   const alignCenter = { display: "flex", alignItems: "center" };
 
+  const sendMail = () => {
+    window.open("mailto:desenvolvimento@veplex.com.br");
+  };
+
+  const sendWpp = () => {
+    window.open("https://wa.me/555491630943");
+  };
+
   return (
     <div className="containerParallax">
       <Parallax ref={parallax} pages={3}>
@@ -99,10 +107,10 @@ export default function Principal() {
             </div>
           </div>
           <div className="contatoButtons">
-            <div>
+            <div className="buttonContatoPage" onClick={sendMail}>
               <img src="./assets/mail.png" alt="" className="buttonContato" />
             </div>
-            <div>
+            <div className="buttonContatoPage" onClick={sendWpp}>
               <img
                 src="./assets/whatsapp.png"
                 alt=""
@@ -123,7 +131,12 @@ export default function Principal() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={2.1} speed={2}>
-          <div className="containerImgParceiro">
+          <div
+            className="containerImgParceiro"
+            onClick={() => {
+              alert("oi");
+            }}
+          >
             <img
               src="/assets/royal-trudel.png"
               className="logoParceiroRoyalTrudel logoParceiro"

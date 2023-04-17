@@ -55,6 +55,7 @@
 }
 .iconInicial {
   width: 250px;
+  cursor: pointer;
 }
 .sobreNos {
   color: white;
@@ -146,6 +147,7 @@
 }
 .logoParceiroOfertao {
   width: 200px;
+  cursor: pointer;
 }
 .logoParceiroOniz {
   width: 200px;
@@ -178,7 +180,10 @@
 .box span:nth-child(3) {
   animation-delay: -0.4s;
 }
-
+.imgContatoPage {
+  width: 100%;
+  min-width: 200px;
+}
 @keyframes animate {
   0% {
     opacity: 0;
@@ -192,9 +197,16 @@
   }
 }
 
-.imgContatoPage {
-  width: 100%;
-  min-width: 200px;
+.buttonContatoPage {
+  cursor: pointer;
+}
+.containerImgParceiro {
+  cursor: pointer;
+}
+@media (max-width: 1650px) {
+  .iconInicial {
+    width: 180px;
+  }
 }
 
 @media (max-width: 1450px) {
@@ -279,6 +291,7 @@
   }
   .buttonContato {
     width: 150px;
+    cursor: pointer;
   }
   .contatoButtons {
     justify-content: center;
