@@ -105,7 +105,8 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   align-items: space-around;
-  justify-items: space-around;
+  justify-content: space-around;
+  margin-left: 5%;
 }
 .iconAboutUs {
   width: 300px;
