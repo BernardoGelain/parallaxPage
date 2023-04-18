@@ -21,7 +21,7 @@ export default function Principal() {
 
   return (
     <div className="containerParallax">
-      <Parallax ref={parallax} pages={3}>
+      <Parallax ref={parallax} pages={3} className="principalParallax">
         <ParallaxLayer offset={0} speed={1}>
           <div className="containerFirstPage">
             <div className="containerElementos">

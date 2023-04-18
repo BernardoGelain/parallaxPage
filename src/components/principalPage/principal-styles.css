@@ -364,3 +364,16 @@
     width: 120px;
   }
 }
+
+.principalParallax::-webkit-scrollbar {
+  width: 3px; /* width of the entire scrollbar */
+}
+
+.principalParallax::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.principalParallax::-webkit-scrollbar-thumb {
+  background-color: rgba(93, 50, 133, 1); /* color of the scroll thumb */
+  border-radius: 25px; /* roundness of the scroll thumb */
+}
