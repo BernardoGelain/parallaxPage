@@ -84,7 +84,7 @@ export default function Principal() {
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={1}>
+        <ParallaxLayer offset={1} speed={2.8}>
           <div className="contatoPageContainer">
             <div className="containerImagemContato">
               <img
