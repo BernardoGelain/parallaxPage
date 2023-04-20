@@ -63,7 +63,7 @@ export default function Principal() {
               <div className="containerItem">
                 <img src="./assets/uniao.png" className="iconAboutUs" />
                 <span className="aboutUsText">
-                  Organizada e descomplicada. A Veplex acredita na união entre
+                  Organizada e descomplicada, a Veplex acredita na união entre
                   pessoas.
                 </span>
               </div>
